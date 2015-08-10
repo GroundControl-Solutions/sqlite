@@ -14,7 +14,7 @@
 #include <string>
 #include <map>
 
-#include <SQLiteCpp/Exception.h>
+#include <sqlite/Exception.h>
 
 
 namespace SQLite

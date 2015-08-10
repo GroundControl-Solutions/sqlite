@@ -13,20 +13,19 @@
 		3FC98F8C1B72606A00039228 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC98F791B725EC900039228 /* sqlite3.c */; };
 		3FC98F8D1B72606D00039228 /* sqlite3.h in Sources */ = {isa = PBXBuildFile; fileRef = 3FC98F7A1B725EC900039228 /* sqlite3.h */; };
 		3FC98F8E1B72606F00039228 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC98F7F1B72604400039228 /* shell.c */; };
-		3FC990581B738ED700039228 /* shell.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC98F7F1B72604400039228 /* shell.c */; };
 		3FC990591B738ED700039228 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC98F791B725EC900039228 /* sqlite3.c */; };
 		3FC9905C1B738ED700039228 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC98F7A1B725EC900039228 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990661B738F0800039228 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC990621B738F0800039228 /* Column.cpp */; };
-		3FC990671B738F0800039228 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC990631B738F0800039228 /* Database.cpp */; };
-		3FC990681B738F0800039228 /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC990641B738F0800039228 /* Statement.cpp */; };
-		3FC990691B738F0800039228 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC990651B738F0800039228 /* Transaction.cpp */; };
-		3FC990711B738F1700039228 /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906A1B738F1700039228 /* Assertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990721B738F1700039228 /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906B1B738F1700039228 /* Column.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990731B738F1700039228 /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906C1B738F1700039228 /* Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990741B738F1700039228 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906D1B738F1700039228 /* Exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990751B738F1700039228 /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906E1B738F1700039228 /* SQLiteCpp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990761B738F1700039228 /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC9906F1B738F1700039228 /* Statement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FC990771B738F1700039228 /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC990701B738F1700039228 /* Transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991AF1B7908D000039228 /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A41B7908D000039228 /* Assertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B01B7908D000039228 /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A51B7908D000039228 /* Column.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B11B7908D000039228 /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A61B7908D000039228 /* Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B21B7908D000039228 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A71B7908D000039228 /* Exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B31B7908D000039228 /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A81B7908D000039228 /* SQLiteCpp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B41B7908D000039228 /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991A91B7908D000039228 /* Statement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B51B7908D000039228 /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FC991AA1B7908D000039228 /* Transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC991B61B7908D000039228 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991AB1B7908D000039228 /* Column.cpp */; };
+		3FC991B71B7908D000039228 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991AC1B7908D000039228 /* Database.cpp */; };
+		3FC991B81B7908D000039228 /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991AD1B7908D000039228 /* Statement.cpp */; };
+		3FC991B91B7908D000039228 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991AE1B7908D000039228 /* Transaction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,17 +47,17 @@
 		3FC98F7F1B72604400039228 /* shell.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shell.c; sourceTree = "<group>"; };
 		3FC98F851B72605100039228 /* sqlite3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sqlite3; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC990601B738ED700039228 /* libsqlite++.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libsqlite++.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FC990621B738F0800039228 /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Column.cpp; path = SQLiteCpp/src/Column.cpp; sourceTree = "<group>"; };
-		3FC990631B738F0800039228 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Database.cpp; path = SQLiteCpp/src/Database.cpp; sourceTree = "<group>"; };
-		3FC990641B738F0800039228 /* Statement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Statement.cpp; path = SQLiteCpp/src/Statement.cpp; sourceTree = "<group>"; };
-		3FC990651B738F0800039228 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Transaction.cpp; path = SQLiteCpp/src/Transaction.cpp; sourceTree = "<group>"; };
-		3FC9906A1B738F1700039228 /* Assertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Assertion.h; path = SQLiteCpp/include/SQLiteCpp/Assertion.h; sourceTree = "<group>"; };
-		3FC9906B1B738F1700039228 /* Column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Column.h; path = SQLiteCpp/include/SQLiteCpp/Column.h; sourceTree = "<group>"; };
-		3FC9906C1B738F1700039228 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = SQLiteCpp/include/SQLiteCpp/Database.h; sourceTree = "<group>"; };
-		3FC9906D1B738F1700039228 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exception.h; path = SQLiteCpp/include/SQLiteCpp/Exception.h; sourceTree = "<group>"; };
-		3FC9906E1B738F1700039228 /* SQLiteCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteCpp.h; path = SQLiteCpp/include/SQLiteCpp/SQLiteCpp.h; sourceTree = "<group>"; };
-		3FC9906F1B738F1700039228 /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Statement.h; path = SQLiteCpp/include/SQLiteCpp/Statement.h; sourceTree = "<group>"; };
-		3FC990701B738F1700039228 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = SQLiteCpp/include/SQLiteCpp/Transaction.h; sourceTree = "<group>"; };
+		3FC991A41B7908D000039228 /* Assertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assertion.h; sourceTree = "<group>"; };
+		3FC991A51B7908D000039228 /* Column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Column.h; sourceTree = "<group>"; };
+		3FC991A61B7908D000039228 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		3FC991A71B7908D000039228 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		3FC991A81B7908D000039228 /* SQLiteCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteCpp.h; sourceTree = "<group>"; };
+		3FC991A91B7908D000039228 /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statement.h; sourceTree = "<group>"; };
+		3FC991AA1B7908D000039228 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		3FC991AB1B7908D000039228 /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Column.cpp; sourceTree = "<group>"; };
+		3FC991AC1B7908D000039228 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
+		3FC991AD1B7908D000039228 /* Statement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Statement.cpp; sourceTree = "<group>"; };
+		3FC991AE1B7908D000039228 /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,17 +125,17 @@
 		3FC990611B738EFE00039228 /* sqlitecpp */ = {
 			isa = PBXGroup;
 			children = (
-				3FC9906A1B738F1700039228 /* Assertion.h */,
-				3FC9906B1B738F1700039228 /* Column.h */,
-				3FC9906C1B738F1700039228 /* Database.h */,
-				3FC9906D1B738F1700039228 /* Exception.h */,
-				3FC9906E1B738F1700039228 /* SQLiteCpp.h */,
-				3FC9906F1B738F1700039228 /* Statement.h */,
-				3FC990701B738F1700039228 /* Transaction.h */,
-				3FC990621B738F0800039228 /* Column.cpp */,
-				3FC990631B738F0800039228 /* Database.cpp */,
-				3FC990641B738F0800039228 /* Statement.cpp */,
-				3FC990651B738F0800039228 /* Transaction.cpp */,
+				3FC991A41B7908D000039228 /* Assertion.h */,
+				3FC991A51B7908D000039228 /* Column.h */,
+				3FC991A61B7908D000039228 /* Database.h */,
+				3FC991A71B7908D000039228 /* Exception.h */,
+				3FC991A81B7908D000039228 /* SQLiteCpp.h */,
+				3FC991A91B7908D000039228 /* Statement.h */,
+				3FC991AA1B7908D000039228 /* Transaction.h */,
+				3FC991AB1B7908D000039228 /* Column.cpp */,
+				3FC991AC1B7908D000039228 /* Database.cpp */,
+				3FC991AD1B7908D000039228 /* Statement.cpp */,
+				3FC991AE1B7908D000039228 /* Transaction.cpp */,
 			);
 			name = sqlitecpp;
 			sourceTree = "<group>";
@@ -156,14 +155,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC990761B738F1700039228 /* Statement.h in Headers */,
-				3FC990771B738F1700039228 /* Transaction.h in Headers */,
-				3FC990721B738F1700039228 /* Column.h in Headers */,
-				3FC990731B738F1700039228 /* Database.h in Headers */,
-				3FC990751B738F1700039228 /* SQLiteCpp.h in Headers */,
-				3FC990741B738F1700039228 /* Exception.h in Headers */,
+				3FC991B41B7908D000039228 /* Statement.h in Headers */,
+				3FC991B51B7908D000039228 /* Transaction.h in Headers */,
+				3FC991B01B7908D000039228 /* Column.h in Headers */,
+				3FC991B11B7908D000039228 /* Database.h in Headers */,
+				3FC991B31B7908D000039228 /* SQLiteCpp.h in Headers */,
+				3FC991B21B7908D000039228 /* Exception.h in Headers */,
 				3FC9905C1B738ED700039228 /* sqlite3.h in Headers */,
-				3FC990711B738F1700039228 /* Assertion.h in Headers */,
+				3FC991AF1B7908D000039228 /* Assertion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC990691B738F0800039228 /* Transaction.cpp in Sources */,
-				3FC990661B738F0800039228 /* Column.cpp in Sources */,
-				3FC990581B738ED700039228 /* shell.c in Sources */,
-				3FC990681B738F0800039228 /* Statement.cpp in Sources */,
-				3FC990671B738F0800039228 /* Database.cpp in Sources */,
+				3FC991B91B7908D000039228 /* Transaction.cpp in Sources */,
+				3FC991B61B7908D000039228 /* Column.cpp in Sources */,
+				3FC991B81B7908D000039228 /* Statement.cpp in Sources */,
+				3FC991B71B7908D000039228 /* Database.cpp in Sources */,
 				3FC990591B738ED700039228 /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +378,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -398,6 +397,7 @@
 				EXECUTABLE_PREFIX = lib;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
@@ -412,6 +412,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = sqlite3;
 			};
 			name = Debug;
@@ -419,6 +420,7 @@
 		3FC98F8B1B72605100039228 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = sqlite3;
 			};
 			name = Release;
@@ -435,7 +437,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SQLiteCpp/include",
+					"$(PROJECT_DIR)/..",
 				);
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
@@ -457,7 +459,7 @@
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SQLiteCpp/include",
+					"$(PROJECT_DIR)/..",
 				);
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
