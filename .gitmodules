@@ -1,3 +1,0 @@
-[submodule "SQLiteCpp"]
-	path = SQLiteCpp
-	url = git@github.com:GroundControl-Solutions/SQLiteCpp.git
