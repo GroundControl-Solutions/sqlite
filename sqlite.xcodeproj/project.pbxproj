@@ -382,7 +382,9 @@
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRIVATE_HEADERS_FOLDER_PATH = sqlite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = sqlite;
 			};
 			name = Debug;
 		};
@@ -401,7 +403,9 @@
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRIVATE_HEADERS_FOLDER_PATH = sqlite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = sqlite;
 			};
 			name = Release;
 		};
@@ -442,7 +446,9 @@
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRIVATE_HEADERS_FOLDER_PATH = sqlite;
 				PRODUCT_NAME = "sqlite++";
+				PUBLIC_HEADERS_FOLDER_PATH = sqlite;
 			};
 			name = Debug;
 		};
@@ -464,7 +470,9 @@
 				INSTALL_PATH = "";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRIVATE_HEADERS_FOLDER_PATH = sqlite;
 				PRODUCT_NAME = "sqlite++";
+				PUBLIC_HEADERS_FOLDER_PATH = sqlite;
 			};
 			name = Release;
 		};
