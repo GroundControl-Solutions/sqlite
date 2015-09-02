@@ -16,4 +16,4 @@ set(SQLITE_SOURCE_FILES
 	Statement.cpp
 	Transaction.cpp)
 
-add_library(sqlite STATIC ${SQLITE_SOURCE_FILES})
+add_library(sqlite ${SQLITE_SOURCE_FILES})
