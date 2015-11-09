@@ -17,3 +17,5 @@ set(SQLITE_SOURCE_FILES
 	Transaction.cpp)
 
 add_library(sqlite ${SQLITE_SOURCE_FILES})
+
+target_include_directories(sqlite PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
